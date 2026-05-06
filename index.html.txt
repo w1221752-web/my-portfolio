@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="暗黑高级感个人作品集官网，展示个人介绍、精选作品与联系方式。"
+    />
+    <title>Nova Portfolio | Personal Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true">
+      <span class="glow glow-a"></span>
+      <span class="glow glow-b"></span>
+      <span class="grid-overlay"></span>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <nav class="navbar" aria-label="主导航">
+        <a class="brand" href="#home" aria-label="返回首页">
+          <span class="brand-mark"></span>
+          <span>Nova</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#home">首页</a>
+          <a class="nav-link" href="#about">关于</a>
+          <a class="nav-link" href="#works">作品集</a>
+          <a class="nav-link" href="#contact">联系</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Digital Designer / Frontend Creator</p>
+            <h1>用冷静的视觉系统，构建有质感的数字体验。</h1>
+            <p class="hero-text">
+              专注品牌官网、交互界面与视觉叙事，将极简结构、深色层次和精确动效融合成清晰、有记忆点的作品。
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#works">查看作品</a>
+              <a class="btn btn-ghost" href="#contact">合作联系</a>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal" aria-label="个人能力概览">
+            <div class="panel-topline">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="panel-orbit">
+              <div class="orbit-core">NX</div>
+            </div>
+            <div class="metrics">
+              <article>
+                <strong>36+</strong>
+                <span>项目交付</span>
+              </article>
+              <article>
+                <strong>8yr</strong>
+                <span>设计经验</span>
+              </article>
+              <article>
+                <strong>4.9</strong>
+                <span>客户评分</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container split-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>在审美与可用性之间，找到更锋利的平衡点。</h2>
+          </div>
+
+          <div class="about-content reveal">
+            <p>
+              我是一名关注体验细节的创作者，擅长从品牌调性、信息架构和前端实现三个维度推进项目。每一次设计都服务于真实目标：更清晰的表达、更顺畅的路径、更稳定的交付。
+            </p>
+            <div class="skill-list" aria-label="能力标签">
